@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ckeditor/ckeditor.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav">
+        <nav id="navbar">
+            <div id="nav-logo"><img src="logo2.png" id="logo"></div>
+            <ul id="nav-content">
+                <li class="page_links">
+                    <a href="../landingpg/landing.html">Home</a>
+                </li>
+                <li class="page_links">
+                    <a href="../Meditation/index.html">Meditation</a>
+                </li>
+                <li class="page_links">
+                    <a href="../quotes/index.html">Quotes</a>
+                </li>
+                <li class="page_links">
+                    <a href="../tarot/index.html">Horoscope</a>
+                </li>
+                <li class="page_links">
+                    <a href="../journal/new.html">Journal</a>
+                </li>
+            </ul>
+            <button class="nav-btn ">Sign In</button>
+            <button class="nav-btn nav-btn-selected">Sign Up</button>
+        </nav>
+    </div>
+    <div class="entry">
+        <div class="emoji-entry">How Do You Feel Today</div>
+        <div class="x"><span>&#128513;</span><span>&#128515;</span><span>&#128528;</span><span>&#128533;</span><span>&#128532;</span></div>
+    </div>
+    <div class="entry">
+        <span id="banner"></span>
+        <form action="" method="post">
+            <!-- <label for="entry" id="banner"></label> -->
+            <textarea name="ckeditor" id="editor" class="entry-text-box" placeholder="What's on your mind today? 💭"></textarea>
+            <button class="enroll color">Enroll</button>
+        </form>
+        <script src="app.js"></script><script src="ckeditor.js"></script>
+    </div>
+</body>
+</html>
